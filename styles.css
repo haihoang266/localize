@@ -1,0 +1,35 @@
+button {
+  margin-bottom: 20px;
+}
+
+.sheet {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: lightgreen;
+}
+
+.output > div {
+  display: flex;
+}
+.output > div .box:first-child {
+  width: 30px;
+}
+.output > div .box:nth-child(2) {
+  width: 30px;
+}
+.output > div .box:nth-child(3) {
+  width: 60px;
+}
+.output > div .box {
+  display: inline-block;
+  width: 15%;
+  text-align: center;
+  border: 1px solid grey;
+  overflow-wrap: break-word;
+  max-height: 100px;
+  overflow-y: auto;
+}
+
+
+
