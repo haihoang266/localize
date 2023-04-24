@@ -19,7 +19,7 @@ fetch(endpoint)
     console.log({ rowsSheet });
     rowsSheet.forEach((row) => {
       const rowElm = document.createElement("div");
-      const columnsInRow = row.c;
+      const columnsInRow = row.c.slice(0, 9);
       columnsInRow.forEach((cell) => {
         const box = document.createElement("div");
         box.textContent = cell?.v;
@@ -44,7 +44,7 @@ $("#log_keys_en").on("click", () => {
       return key === keyLang;
     });
     objectDataLangEN[key] = rowDataForKey
-      ? rowDataForKey.c[6]?.v || ""
+      ? rowDataForKey.c[6]?.v || key
       : HAS_NOT_KEY;
   });
 
@@ -61,7 +61,7 @@ $("#log_keys_th").on("click", () => {
       return key === keyLang;
     });
     objectDataLangTH[key] = rowDataForKey
-      ? rowDataForKey.c[7]?.v || ""
+      ? rowDataForKey.c[7]?.v || key
       : HAS_NOT_KEY;
   });
 
@@ -78,7 +78,7 @@ $("#log_keys_ms").on("click", () => {
       return key === keyLang;
     });
     objectDataLangMS[key] = rowDataForKey
-      ? rowDataForKey.c[8]?.v || ""
+      ? rowDataForKey.c[8]?.v || key
       : HAS_NOT_KEY;
   });
 

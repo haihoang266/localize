@@ -32,7 +32,7 @@ const vi = {
   'login.phoneOrUserName': 'Số điện thoại/Tên đăng nhập',
   'login.phone': 'Số điện thoại',
   'login.password': 'Mật khẩu',
-  'login.deviceId': 'Device ID: {{deviceId}}',
+  'login.deviceId': 'Device ID',
   'login.forgotPassword': 'Quên mật khẩu',
   'login.login': 'Đăng nhập',
   'login.orLoginWith': 'Hoặc đăng nhập với',
@@ -70,13 +70,12 @@ const vi = {
   'parents.parentInformation.header': 'Thông tin phụ huynh',
   'parents.parentInformation.fullName': 'Họ và tên:',
   'parents.parentInformation.fullNamePlaceholder': 'Họ và tên',
-  'parents.parentInformation.phone': 'Số điện thoại:',
+  'parents.parentInformation.phone': 'Số điện thoại',
   'parents.parentInformation.phonePlaceholder': 'Số điện thoại',
   'parents.parentInformation.email': 'Email:',
   'parents.parentInformation.emailPlaceholder': 'Email',
   'parents.parentInformation.save': 'Lưu',
   'parents.popupUpdateParentInfo.title': 'Thành công',
-  'parents.popupUpdateParentInfo.phoneNumber': 'Số điện thoại',
   'parents.popupUpdateParentInfo.description':
     'Từ bây giờ ba mẹ có thể đăng nhập với {{contact}} này.',
   'parents.popupUpdateParentInfo.understand': 'Tôi đã hiểu',
@@ -276,7 +275,7 @@ const vi = {
   'forgotPassword.phoneText': 'số điện thoại',
   'forgotPassword.emailText': 'email',
   'forgotPassword.confirm': 'Xác nhận',
-  'forgotPassword.reSend': 'Gửi lại OTP {{second}}',
+  'forgotPassword.reSend': 'Gửi lại OTP',
   'forgotPassword.wrongOtp': 'OTP không đúng, vui lòng nhập lại',
   'forgotPassword.methodotp.desc':
     'Ba mẹ muốn nhận mã để đặt lại mật khẩu theo hình thức nào?',
@@ -392,7 +391,6 @@ const vi = {
   'linkAccount.loginWithOtherAccount': 'Tôi đã có tài khoản',
   'linkAccountChooseSignInOrSignUp.description':
     'Để sử dụng gói mua, ba mẹ vui lòng',
-  'linkAccountChooseSignInOrSignUp.or': ' hoặc ',
   'linkAccountChooseSignInOrSignUp.login': 'Đăng nhập',
   'linkAccountChooseSignInOrSignUp.createNewAccount': 'Tạo tài khoản mới',
 
@@ -409,7 +407,6 @@ const vi = {
   'popupPackageNotExist.title': 'Thông báo',
   'popupPackageNotExist.desc':
     'Gói mua không tồn tại, ba mẹ vui lòng kiểm tra lại.',
-  'popupPackageNotExist.submit': 'Xác nhận',
 
   'popupShowWarningLostProfile.title': 'Thông báo',
   'popupShowWarningLostProfile.description':
@@ -428,7 +425,6 @@ const vi = {
   'setting.EE.b2c': 'Thời gian chuyển giữa 2 thẻ học',
   'setting.EE.b2c.title': 'Thời gian chuyển giữa 2 thẻ',
   'setting.LRC.changelevel': 'Thay đổi cấp độ',
-  'parents.coursesSetting.chooseLevel': 'Chọn cấp độ',
   'setting.LRC.changelevel.title': 'Hệ thống cấp độ học',
   'setting.LRC.changelevel.word': 'Từ: {{numberOfWord}}',
   'setting.LRC.changelevel.lex': 'Lexile: {{lexile}}',
@@ -471,10 +467,9 @@ const vi = {
   'intro.scr3.desc':
     '+1 triệu gia đình Mỹ tin tưởng sử dụng\n+15 triệu người dùng trên toàn thế giới',
 
-  'package.6months': '6 tháng',
-  'package.lifetime': 'trọn đời',
-  'package.1years': '1 năm',
-  'payment.package': 'Gói {{packageName}}',
+  'payment.op1': 'Gói 6 tháng',
+  'payment.op2': 'Gói trọn đời',
+  'payment.op3': 'Gói 1 năm',
   'requestCreateAccount.pleaseGoToCreateAccount':
     'Gói mua đã được kích hoạt. Ba mẹ vui lòng tạo tài khoản để sử dụng.',
   'requestCreateAccount.createAccount': 'Tạo tài khoản',
