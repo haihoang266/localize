@@ -44,13 +44,14 @@ const vi = {
   'mergeAccount.validAccount.description':
     'Chúc mừng Ba mẹ đã kích hoạt thành công khoá học',
   'mergeAccount.validAccount.continue': 'Tiếp tục',
-  'mergeAccount.informationAccountHasError':
+  'mergeAccount.popup.packageerror.desc':
     'Rất tiếc, thông tin gói học đã gặp lỗi. Vui lòng liên hệ Monkey Care số 1900636052 để được hỗ trợ.',
-  'mergeAccount.accountHasLifeTime':
+  'mergeAccount.popup.fullpackage.desc':
     'Tài khoản đã có gói học {{packageName}} trọn đời, vui lòng đăng nhập tài khoản khác hoặc đăng ký mới',
-  'mergeAccount.activeSuccess': 'Kích hoạt thành công',
-  'mergeAccount.mergeLifetimeToPaid':
+  'mergeAccount.activecomplete.title': 'Kích hoạt thành công',
+  'mergeAccount.popup.warningaddpackage.desc':
     'Khóa học {{courseName}} vẫn còn hạn sử dụng, ba mẹ có chắc chắn muốn cộng thời hạn lên trọn đời?',
+
   'parents.tabs.report': 'Báo cáo',
   'parents.tabs.course': 'Khóa học',
   'parents.tabs.notification': 'Thông báo',
@@ -80,7 +81,6 @@ const vi = {
     'Từ bây giờ ba mẹ có thể đăng nhập với {{contact}} này.',
   'parents.popupUpdateParentInfo.understand': 'Tôi đã hiểu',
   'parents.childrenProfile.header': 'Hồ sơ học tập của con',
-  'parents.childrenProfile.age': 'tuổi',
   'parents.childrenProfile.addProfile': 'Thêm người học',
   'parents.childProfile.changeAvatar': 'Thay đổi hình đại diện',
   'parents.childProfile.header': 'Hồ sơ của {{profile}}',
@@ -93,7 +93,6 @@ const vi = {
   'parents.childProfile.setStudyTime': 'Cài đặt thời gian học',
   'parents.childProfile.timeBetweenTwoStudies': 'Thời gian giữa 2 lần học',
   'parents.childProfile.birthYearPlaceholder': 'Năm sinh',
-  'parents.childProfile.targetPlaceholder': 'Mục tiêu',
   'parents.setting.timeexpired': 'Hạn sử dụng khóa học',
   'parent.timeexpire.desc1': 'Còn lại',
   'parent.timeexpire.desc': 'Ngày hết hạn',
@@ -169,37 +168,36 @@ const vi = {
   'parents.settingGeneral.soundtrack': 'Nhạc nền',
   'parents.settingGeneral.notification': 'Thông báo',
   'parents.settingGeneral.version': 'Phiên bản',
-  'parents.settingGeneral.vietnamese': 'Tiếng Việt',
-  'parents.settingGeneral.english': 'Tiếng Anh',
-  'parents.settingGeneral.thailand': 'Tiếng Thái Lan',
-  'parents.settingGeneral.malaysia': 'Tiếng Malaysia',
+  'parent.commonset.language.op1': 'Tiếng Việt',
+  'parent.commonset.language.op2': 'Tiếng Anh',
+  'parent.commonset.language.op3': 'Thái Lan',
+  'parent.commonset.language.op4': 'Malaysia',
 
-  'popupConfirmPassword.title': 'Xác thực mật khẩu',
-  'popupConfirmPassword.description':
+  'parent.editaccinfo.popup.athen.title': 'Xác thực mật khẩu',
+  'parent.editaccinfo.popup.athen.desc':
     'Ba mẹ nhập mật khẩu để xác thực tài khoản và chỉnh sửa thông tin nhé!',
-  'popupConfirmPassword.placeholder': 'Mật khẩu',
-  'popupConfirmPassword.button.forgotPassword': 'Quên mật khẩu',
+  'parent.editaccinfo.popup.athen.password': 'Mật khẩu',
+  'parent.editaccinfo.popup.athen.act1': 'Quên mật khẩu',
 
-  'popupCreatePassword.title': 'Cập nhật mật khẩu',
-  'popupCreatePassword.description':
+  'parent.editaccinfo.popup.updatepass.title': 'Cập nhật mật khẩu',
+  'parent.editaccinfo.popup.updatepass.desc':
     'Ba mẹ thêm mật khẩu để chỉnh sửa thông tin và đăng nhập trong lần sau nhé!',
-  'popupCreatePassword.placeholder1': 'Mật khẩu mới',
-  'popupCreatePassword.placeholder2': 'Xác nhận mật khẩu',
+  'updatePassword.reNewPass1': 'Xác nhận mật khẩu',
 
-  'popupNoticeGotoSignUp.title': 'Được làm quen thêm rồi...',
-  'popupNoticeGotoSignUp.description':
+  'parent.editaccinfo.popup.signup.title': 'Được làm quen thêm rồi...',
+  'parent.editaccinfo.popup.signup.desc':
     'Ba mẹ hãy đăng ký tài khoản để Monkey cập nhật thông tin nhé!',
-  'popupNoticeGotoSignUp.forLater': 'Để sau nha',
-  'popupNoticeGotoSignUp.signUpNow': 'Đăng ký ngay',
+  'parent.editaccinfo.popup.signup.act1': 'Để sau nha',
+  'parent.editaccinfo.popup.signup.act2': 'Đăng ký ngay',
 
-  'notificationChangeAge.title': 'CẢNH BÁO',
+  'notificationChangeAge.title': 'Cảnh báo',
   'notificationChangeAge.description1':
     'Ba mẹ chỉ có thể thay đổi tuổi 01 lần, ba mẹ có chắc chắn muốn thay đổi không?',
   'notificationChangeAge.description2':
     'Ba mẹ đã hết lượt chỉnh sửa tuổi của hồ sơ học tập này.',
   'notificationChangeAge.cancel': 'Tôi đã hiểu',
   'notificationChangeAge.sure': 'Tôi chắc chắn',
-  'notificationChangeAge.understood': 'Tôi đã hiểu',
+  'notificationChangeAge.confirm': 'Tôi đã hiểu',
   'notificationConfirmLogout.title': 'ĐĂNG XUẤT',
   'notificationConfirmLogout.description':
     'Bạn chắc chắn muốn đăng xuất tài khoản này?',
@@ -217,7 +215,6 @@ const vi = {
   'courseProposal.finding':
     'Monkey đang lựa chọn khóa học phù hợp nhất, {{name}} chờ chút nhé!',
   'courseProposal.hadFound': 'Yeah! Mình tìm thấy rồi ^_^',
-  'courseProposal.overview': 'Tổng quan',
   'courseProposal.buyNow': 'Mua ngay',
   'courseProposal.studyNow': 'Học ngay',
   'courseProposal.trialNow': 'Học thử ngay',
@@ -227,10 +224,10 @@ const vi = {
   'selectLevel.level3': 'Con có thể đọc hiểu được những câu ngắn và đơn giản.',
   'selectLevel.level4': 'Con có thể đọc hiểu đoạn văn ngắn.',
   'initializingCourse.title': 'Khởi tạo lộ trình học tập',
-  'initializingCourse.favoriteTopics': 'Tùy chỉnh theo chủ đề yêu thích',
   'initializingCourse.age': 'Tùy chỉnh theo độ tuổi',
   'initializingCourse.level': 'Tùy chỉnh theo trình độ',
   'initializingCourse.studyProgram': 'Khởi tạo lộ trình học',
+  'initializingCourse.report': 'Khởi tạo báo cáo học tập của bé',
 
   'validate.accountFullName': 'Vui lòng nhập 1 - 50 ký tự',
   'validate.nameNotValid': 'Họ tên không hợp lệ',
@@ -245,7 +242,6 @@ const vi = {
   'validate.passwordValid': 'Mật khẩu sai định dạng',
   'validate.passwordIncorrect': 'Mật khẩu không khớp, vui lòng nhập lại',
   'validate.passwordAvailable': 'Mật khẩu khả dụng',
-  'validate.passwordInvalid': 'Mật khẩu không chính xác',
   'validate.passwordMatch': 'Mật khẩu trùng khớp',
   'validate.passwordNotMatch': 'Mật khẩu không khớp, vui lòng nhập lại',
   'validate.maxPassword': 'Vui lòng nhập 1 - 30 ký tự',
@@ -258,21 +254,16 @@ const vi = {
   'validate.usernameDoesNotContainSpace': 'Tên đăng nhập không chứa dấu cách',
   'validate.nameAlreadyExists': 'Tên hồ sơ đã tồn tại',
 
-  'notiAccNotExist.title': 'Thông báo',
   'notiAccNotExist.cancel': 'Hủy',
   'notiAccNotExist.resgister': 'Đăng ký',
   'notiAccAlreadyExist.title': 'Thông báo',
   'notiAccAlreadyExist.cancel': 'Tôi đã hiểu',
   'notiAccAlreadyExist.login': 'Đăng nhập',
 
-  'notiLoginFail.title': 'Thông báo',
   'notiLoginFail.desc': '{{title}} bằng {{method}} thất bại. Vui lòng thử lại',
   'notiLoginFail.ok': 'Tôi đã hiểu',
   'notiLoginFail.login': 'Đăng nhập',
   'notiLoginFail.signup': 'Đăng ký',
-  'notiLoginFail.facebook': 'Facebook',
-  'notiLoginFail.google': 'Google',
-  'notiLoginFail.apple': 'Apple',
 
   'forgotPassword.title': 'Quên mật khẩu',
   'forgotPassword.desc':
@@ -287,11 +278,11 @@ const vi = {
   'forgotPassword.confirm': 'Xác nhận',
   'forgotPassword.reSend': 'Gửi lại OTP {{second}}',
   'forgotPassword.wrongOtp': 'OTP không đúng, vui lòng nhập lại',
-  'forgotPassword.whatMethodChoose':
+  'forgotPassword.methodotp.desc':
     'Ba mẹ muốn nhận mã để đặt lại mật khẩu theo hình thức nào?',
-  'forgotPassword.sentSMS': 'Gửi mã qua SMS',
-  'forgotPassword.sentEmail': 'Gửi mã qua Email',
-  'forgotPassword.or': 'Hoặc',
+  'forgotPassword.methodotp.op1': 'Gửi mã qua SMS',
+  'forgotPassword.methodotp.op2': 'Gửi mã qua Email',
+  'forgotPassword.methodotp.or': 'Hoặc',
   'forgotPassword.email': 'Email',
 
   'updatePassword.title': 'Cập nhật mật khẩu',
@@ -353,9 +344,9 @@ const vi = {
   'payment.policy': 'Điều khoản & chính sách',
   'payment.reactive': 'Khôi phục gói mua',
   'payment.success.title': 'Thanh toán thành công',
-  'payment.changePackageSuccess': 'Đổi gói mua thành công', //
-  'payment.changePackageDesc':
-    'Ba mẹ sẽ tự động được gia hạn gói mua: {{packageName}} với giá {{price}} vào kì thanh toán tiếp theo: {{timeRenew}}.', //
+  'payment.popup.changepackage.title': 'Đổi gói mua thành công',
+  'payment.popup.changepackage.desc':
+    'Ba mẹ sẽ tự động được gia hạn gói mua: {{packageName}} với giá {{price}} vào kì thanh toán tiếp theo: {{timeRenew}}.',
   'payment.success.desc':
     'Monkey biết ba mẹ có nhiều lựa chọn, cảm ơn ba mẹ đã chọn Monkey để đồng hành cùng con.',
   'payment.success.act': 'Vào học ngay',
@@ -370,10 +361,9 @@ const vi = {
     'Lỗi mất kết nối. Ba mẹ vui lòng quay lại sau ít phút hoặc liên hệ với chăm sóc khách hàng qua số điện thoại 1900 63 60 52 để được hỗ trợ tốt nhất.',
   'payment.connectStore.serviceError':
     'Đã xảy ra lỗi khi xác nhận tài khoản. Vui lòng kiểm tra lại!',
-  'payment.termsAndPolicies.title': 'Điều khoản & Chính sách',
-  'payment.termsAndPolicies.contentIos':
+  'mergeAccount.popup.policyIOS.desc':
     'Vui lòng xem Điều khoản sử dụng và Chính sách bảo mật để biết thêm thông tin. Đăng kí sẽ tự động gia hạn trừ khi tắt tính năng tự động gia hạn ít nhất 24 giờ trước thời hạn sử dụng. Tài khoản sẽ bị tính phí gia hạn với mức phí của gói học đã chọn trong vòng 24 giờ trước khi kết thúc thời hạn sử dụng. Bạn có thể vào phần Cài đặt trong tài khoản iTunes để quản lý đăng kí của mình và tắt tính năng tự động gia hạn. Tài khoản iTunes của bạn sẽ bị tính phí khi giao dịch mua được xác nhận. Ngay khi giao dịch mua được xác nhận, phần còn lại của bản dùng thử miễn phí sẽ không còn.',
-  'payment.termsAndPolicies.contentAndroid':
+  'mergeAccount.popup.policyAndroid.desc':
     'Vui lòng xem Điều khoản sử dụng và Chính sách bảo mật để biết thêm thông tin. Đăng kí sẽ tự động gia hạn trừ khi tắt tính năng tự động gia hạn ít nhất 24 giờ trước thời hạn sử dụng. Tài khoản sẽ bị tính phí gia hạn với mức phí của gói học đã chọn trong vòng 24 giờ trước khi kết thúc thời hạn sử dụng. Bạn có thể vào phần Cài đặt trong tài khoản Google Play để quản lý đăng kí của mình và tắt tính năng tự động gia hạn. Tài khoản Google Play của bạn sẽ bị tính phí khi giao dịch mua được xác nhận. Ngay khi giao dịch mua được xác nhận, phần còn lại của bản dùng thử miễn phí sẽ không còn',
 
   'payment.popupc3.title': 'Ba mẹ đang cần hỗ trợ?',
