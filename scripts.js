@@ -2,7 +2,7 @@
 const sheet = $(".sheet")[0];
 const output = $(".output")[0];
 const url = "https://docs.google.com/spreadsheets/d/";
-const ssid = "1hQQVtx3uKtBCYzlXAp1VDTaHFrhk4Bm_8Q1cvPz2-gc";
+const ssid = "11zGaEHPCk7sSgMjWIuu1DTbaIn0btKL9lUGWWZvYxyw";
 const query = `/gviz/tq?`;
 
 const endpoint = `${url}${ssid}${query}`;
@@ -51,8 +51,17 @@ $("#log_json_en").on("click", () => {
   console.log({ jsonEN });
 });
 
-$("#log_keys_vi").on("click", () => {
-  console.log({ KEYS_VI });
+$("#log_json_en_fill_empty").on("click", () => {
+  rowsSheet.forEach((row) => {
+    const columnsInRow = row.c.slice(0, 9);
+    const key = columnsInRow[3]?.v;
+
+    const KEYS_OTHER = Object.keys(objectDataLangEN);
+    if (KEYS_OTHER.includes(key) && key === objectDataLangEN[key]) {
+      objectDataLangEN[key] = columnsInRow[6]?.v || key;
+    }
+  });
+  console.log({ objectDataLangEN });
 });
 
 $("#log_keys_en").on("click", () => {
