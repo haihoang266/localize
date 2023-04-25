@@ -30,6 +30,27 @@ fetch(endpoint)
     });
   });
 
+$("#log_json_vi").on("click", () => {
+  const jsonVI = {};
+  rowsSheet.forEach((row) => {
+    const columnsInRow = row.c.slice(0, 9);
+    jsonVI[columnsInRow[3]?.v] = columnsInRow[5]?.v;
+  });
+  console.log({ jsonVI });
+});
+
+$("#log_json_en").on("click", () => {
+  const jsonEN = {};
+  rowsSheet.forEach((row) => {
+    const columnsInRow = row.c.slice(0, 9);
+    const key = columnsInRow[3]?.v;
+    if (KEYS_VI.includes(key)) {
+      jsonEN[columnsInRow[3]?.v] = columnsInRow[6]?.v;
+    }
+  });
+  console.log({ jsonEN });
+});
+
 $("#log_keys_vi").on("click", () => {
   console.log({ KEYS_VI });
 });

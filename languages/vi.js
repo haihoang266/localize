@@ -59,12 +59,12 @@ const vi = {
   'parents.courseSetting.header': 'Cài đặt khóa học',
   'parents.setting.header': 'Dành cho ba mẹ',
   'parents.setting.changeAvatar': 'Thay đổi hình đại diện',
-  'parents.setting.account': 'THÔNG TIN PHỤ HUYNH',
+  'parents.setting.account': 'Thông tin phụ huynh',
   'parents.setting.deviceId': 'Device ID',
   'parents.setting.userId': 'User ID',
-  'parents.setting.management': 'QUẢN LÝ NGƯỜI HỌC',
-  'parents.setting.setting': 'CÀI ĐẶT',
-  'parents.setting.support': 'HỖ TRỢ',
+  'parents.setting.management': 'Quản lý người học',
+  'parents.setting.setting': 'Cài đặt',
+  'parents.setting.support': 'Hỗ trợ',
   'parents.setting.logout': 'Đăng xuất',
   'parents.setting.deleteAccount': 'Xóa tài khoản',
   'parents.parentInformation.header': 'Thông tin phụ huynh',
@@ -139,7 +139,7 @@ const vi = {
   'parents.learningReport.reading': 'Đọc',
   'parents.learningReport.writing': 'Viết',
   'parents.learningReport.courseProgress': 'Tiến độ học tập',
-  'parents.learningReport.course': 'Khóa học',
+  'Report.EE.title': 'Khóa học',
   'parents.learningReport.stage': 'Chặng',
   'parents.changeAvatarProfile.title': 'Thay đổi ảnh đại diện',
   'parents.changeAvatarProfile.setAvatar': 'Đặt làm ảnh đại diện',
@@ -197,7 +197,7 @@ const vi = {
   'notificationChangeAge.cancel': 'Tôi đã hiểu',
   'notificationChangeAge.sure': 'Tôi chắc chắn',
   'notificationChangeAge.confirm': 'Tôi đã hiểu',
-  'notificationConfirmLogout.title': 'ĐĂNG XUẤT',
+  'notificationConfirmLogout.title': 'Đăng xuất',
   'notificationConfirmLogout.description':
     'Bạn chắc chắn muốn đăng xuất tài khoản này?',
   'notificationConfirmLogout.cancel': 'Hủy',
@@ -349,10 +349,10 @@ const vi = {
   'payment.success.desc':
     'Monkey biết ba mẹ có nhiều lựa chọn, cảm ơn ba mẹ đã chọn Monkey để đồng hành cùng con.',
   'payment.success.act': 'Vào học ngay',
-  'payment.restore.restoreSuccess': 'Khôi phục thành công', //
+  'payment.restore.restoreSuccess': 'Khôi phục thành công',
   'payment.restore.pleaseAddAccount':
     'Mời ba mẹ tạo tài khoản và hồ sơ học tập cho bé',
-  'payment.restore.restoreFail': 'Khôi phục thất bại', //
+  'payment.restore.restoreFail': 'Khôi phục thất bại',
   'payment.restore.pleaseCheckPackage': 'Ba mẹ vui lòng kiểm tra lại gói mua',
   'payment.restore.noPurchaseRestore':
     'Tài khoản Google/ Apple của ba mẹ chưa có gói mua khóa học {{courseName}}. Vui lòng kiểm tra lại!',
@@ -370,8 +370,8 @@ const vi = {
   'payment.popupc3.name': 'Họ và tên',
   'payment.popupc3.phone': 'Số điện thoại',
   'payment.popupc3.act': 'Hỗ trợ tôi',
-  'popupC3.requireName': 'Vui lòng nhập họ tên', //
-  'popupC3.requireContact': 'Vui lòng nhập số điện thoại', //
+  'popupC3.requireName': 'Vui lòng nhập họ tên',
+  'popupC3.requireContact': 'Vui lòng nhập số điện thoại',
   'payment.popupc3.success.title': 'Cập nhật thành công',
   'payment.popupc3.success.desc':
     'Monkey sẽ liên hệ hỗ trợ thông tin cho ba mẹ trong vòng 24h',
@@ -473,4 +473,58 @@ const vi = {
   'requestCreateAccount.pleaseGoToCreateAccount':
     'Gói mua đã được kích hoạt. Ba mẹ vui lòng tạo tài khoản để sử dụng.',
   'requestCreateAccount.createAccount': 'Tạo tài khoản',
+
+  'Report.EE.stage1.title': 'Cơ bản',
+  'Report.EE.stage1.content1': 'Học từ vựng qua các phương pháp Giáo dục sớm',
+  'Report.EE.stage1.content2': 'Tạo thói quen học từ vựng mỗi ngày cho bé',
+  'Report.EE.stage1.content3':
+    'Nghe từ vựng và câu qua giọng đọc chuẩn của người bản xứ',
+  'Report.EE.stage1.content4':
+    'Học thêm: 221 từ vựng thuộc 17 chủ đề quen thuộc, 50 từ phổ biến, 43 chủ điểm ngữ pháp trong gần 800 câu ngữ cảnh',
+  'Report.EE.stage2.title': 'Trung bình',
+  'Report.EE.stage2.content1': 'Củng cố vốn từ vựng',
+  'Report.EE.stage2.content2': 'Học cách sử dụng từ vựng trong câu',
+  'Report.EE.stage2.content3': 'Luyện nói từ và câu với công nghệ AI',
+  'Report.EE.stage2.content4':
+    'Học thêm: 255 từ vựng thuộc 19 chủ đề quen thuộc, 50 từ phổ biến, 47 chủ điểm ngữ pháp trong hơn 900 câu ngữ cảnh',
+  'Report.EE.stage3.title': 'Nâng cao',
+  'Report.EE.stage3.content1': 'Mở rộng vốn từ vựng',
+  'Report.EE.stage3.content2': 'Biết lắp ghép từ thành các câu đơn giản',
+  'Report.EE.stage3.content3':
+    'Học thêm: 236 từ vựng thuộc 20 chủ đề quen thuộc và mở rộng, 50 từ phổ biến, 49 chủ điểm ngữ pháp trong hơn 800 câu ngữ cảnh',
+  'Report.EE.desc':
+    'THÀNH THẠO hơn 1.000 từ vựng mỗi năm chỉ với 10 phút mỗi ngày.',
+
+  'Report.LRC.stage1.title': 'Level A',
+  'Report.LRC.stage1.desc1': 'Tạo dựng thói quen đọc sách cho bé',
+  'Report.LRC.stage1.desc2':
+    'Bé được đọc và luyện tập với 20 truyện đầu tiên, mỗi trang truyện là một từ vựng đơn lẻ',
+  'Report.LRC.stage1.desc3':
+    'Có thể nhận diện được các từ vựng thông dụng qua hình ảnh',
+  'Report.LRC.stage2.title': 'Level B-D',
+  'Report.LRC.stage2.desc1':
+    'Bé bắt đầu được tiếp xúc với truyện gồm các câu đơn ngắn.',
+  'Report.LRC.stage2.desc2':
+    'Bé được đọc và luyện tập với 60 truyện có cốt truyện đơn giản với các chi tiết thú vị, hấp dẫn',
+  'Report.LRC.stage2.desc3':
+    'Nhận diện và hiểu được các cấu trúc câu ngắn lặp đi lặp lại trong truyện với sự hỗ trợ của hình ảnh',
+  'Report.LRC.stage3.title': 'Level E-K',
+  'Report.LRC.stage3.desc1':
+    'Bé được tiếp xúc với các câu truyện dài hơn với cốt truyện phức tạp hơn và bắt đầu xuất hiện các câu phức',
+  'Report.LRC.stage3.desc2':
+    'Bé được đọc và rèn luyện kỹ năng đọc hiểu qua 140 truyện đa dạng chủ đề, bao gồm cả các truyện khoa học',
+  'Report.LRC.stage3.desc3':
+    'Tiếp xúc kho từ vựng đồ sộ được sử dụng qua nhiều ngữ cảnh khác nhau',
+  'Report.LRC.stage3.desc4':
+    'Có thể hiểu được truyện mà không cần phụ thuộc nhiều vào hình ảnh và cấu trúc câu lặp đi lặp lại',
+  'Report.LRC.stage4.title': 'Level L-N',
+  'Report.LRC.stage4.desc1':
+    'Bé được tiếp xúc với các câu truyện dài, cốt truyện phức tạp. Mỗi trang truyện gồm nhiều câu, tương đương với một đoạn văn ngắn',
+  'Report.LRC.stage4.desc2':
+    'Bé được đọc và rèn luyện kỹ năng đọc hiểu qua 45 truyện đa dạng chủ đề, bao gồm cả các truyện khoa học',
+  'Report.LRC.stage4.desc3':
+    'Tiếp xúc kho từ vựng đồ sộ được sử dụng qua nhiều ngữ cảnh khác nhau và chứa nhiều từ vựng trừu tượng nâng cao',
+  'Report.LRC.stage4.desc4':
+    'Có thể chủ động hiểu được truyện mà không cần phụ thuộc vào hình ảnh',
+  'Report.LRC.desc': 'Tạo dựng thói quen đọc sách mỗi ngày',
 };
