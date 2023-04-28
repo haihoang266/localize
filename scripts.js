@@ -2,7 +2,7 @@
 const sheet = $(".sheet")[0];
 const output = $(".output")[0];
 const url = "https://docs.google.com/spreadsheets/d/";
-const ssid = "11zGaEHPCk7sSgMjWIuu1DTbaIn0btKL9lUGWWZvYxyw";
+const ssid = "1bmRJ0rJwzolxfBmPWtmELvTV_WxTdMbTJfpifvo2Sro";
 const query = `/gviz/tq?`;
 
 const endpoint = `${url}${ssid}${query}`;
@@ -173,6 +173,17 @@ $("#log_keys_value-non-translate-en").on("click", () => {
   console.log({ keysWithValueNonTranslateEN });
 });
 
+$("#log_keys_value-non-translate-en-code").on("click", () => {
+  const keysWithValueNonTranslateEN_CODE = [];
+  KEYS_VI.forEach((key) => {
+    
+    if (!objectDataLangEN[key] || objectDataLangEN[key] === key) {
+      keysWithValueNonTranslateEN_CODE.push(key);
+    }
+  });
+  console.log({ keysWithValueNonTranslateEN_CODE });
+});
+
 $("#log_keys_value-non-translate-th").on("click", () => {
   const keysWithValueNonTranslateTH = [];
   KEYS_VI.forEach((key) => {
@@ -190,6 +201,17 @@ $("#log_keys_value-non-translate-th").on("click", () => {
   console.log({ keysWithValueNonTranslateTH });
 });
 
+$("#log_keys_value-non-translate-th-code").on("click", () => {
+  const keysWithValueNonTranslateTH_CODE = [];
+  KEYS_VI.forEach((key) => {
+    
+    if (!objectDataLangTH[key] || objectDataLangTH[key] === key) {
+      keysWithValueNonTranslateTH_CODE.push(key);
+    }
+  });
+  console.log({ keysWithValueNonTranslateTH_CODE });
+});
+
 $("#log_keys_value-non-translate-ms").on("click", () => {
   const keysWithValueNonTranslateMS = [];
   KEYS_VI.forEach((key) => {
@@ -205,4 +227,15 @@ $("#log_keys_value-non-translate-ms").on("click", () => {
     }
   });
   console.log({ keysWithValueNonTranslateMS });
+});
+
+$("#log_keys_value-non-translate-ms-code").on("click", () => {
+  const keysWithValueNonTranslateMS_CODE = [];
+  KEYS_VI.forEach((key) => {
+    
+    if (!objectDataLangMS[key] || objectDataLangMS[key] === key) {
+      keysWithValueNonTranslateMS_CODE.push(key);
+    }
+  });
+  console.log({ keysWithValueNonTranslateMS_CODE });
 });

@@ -51,6 +51,7 @@ const vi = {
   'mergeAccount.activecomplete.title': 'Kích hoạt thành công',
   'mergeAccount.popup.warningaddpackage.desc':
     'Khóa học {{courseName}} vẫn còn hạn sử dụng, ba mẹ có chắc chắn muốn cộng thời hạn lên trọn đời?',
+  'mergeAccount.activecomplete.act': 'Vào học',
 
   'parents.tabs.report': 'Báo cáo',
   'parents.tabs.course': 'Khóa học',
@@ -76,8 +77,10 @@ const vi = {
   'parents.parentInformation.emailPlaceholder': 'Email',
   'parents.parentInformation.save': 'Lưu',
   'parents.popupUpdateParentInfo.title': 'Thành công',
+  'parents.popupUpdateParentInfo.description.phone': 'SĐT',
+  'parents.popupUpdateParentInfo.description.email': 'Email',
   'parents.popupUpdateParentInfo.description':
-    'Từ bây giờ ba mẹ có thể đăng nhập với {{contact}} này.',
+    '{{contact}} đã được đăng ký. Ba mẹ có thể đăng nhập ngay.',
   'parents.popupUpdateParentInfo.understand': 'Tôi đã hiểu',
   'parents.childrenProfile.header': 'Hồ sơ học tập của con',
   'parents.childrenProfile.addProfile': 'Thêm người học',
@@ -139,8 +142,6 @@ const vi = {
   'parents.learningReport.reading': 'Đọc',
   'parents.learningReport.writing': 'Viết',
   'parents.learningReport.courseProgress': 'Tiến độ học tập',
-  'Report.EE.title': 'Khóa học',
-  'parents.learningReport.stage': 'Chặng',
   'parents.changeAvatarProfile.title': 'Thay đổi ảnh đại diện',
   'parents.changeAvatarProfile.setAvatar': 'Đặt làm ảnh đại diện',
 
@@ -360,11 +361,12 @@ const vi = {
     'Lỗi mất kết nối. Ba mẹ vui lòng quay lại sau ít phút hoặc liên hệ với chăm sóc khách hàng qua số điện thoại 1900 63 60 52 để được hỗ trợ tốt nhất.',
   'payment.connectStore.serviceError':
     'Đã xảy ra lỗi khi xác nhận tài khoản. Vui lòng kiểm tra lại!',
+  'payment.popup.alrhavepackage.desc':
+    'Tài khoản đã có gói học {{packageName}}, ba mẹ tiếp tục cho bé sử dụng nhé!',
   'mergeAccount.popup.policyIOS.desc':
     'Vui lòng xem Điều khoản sử dụng và Chính sách bảo mật để biết thêm thông tin. Đăng kí sẽ tự động gia hạn trừ khi tắt tính năng tự động gia hạn ít nhất 24 giờ trước thời hạn sử dụng. Tài khoản sẽ bị tính phí gia hạn với mức phí của gói học đã chọn trong vòng 24 giờ trước khi kết thúc thời hạn sử dụng. Bạn có thể vào phần Cài đặt trong tài khoản iTunes để quản lý đăng kí của mình và tắt tính năng tự động gia hạn. Tài khoản iTunes của bạn sẽ bị tính phí khi giao dịch mua được xác nhận. Ngay khi giao dịch mua được xác nhận, phần còn lại của bản dùng thử miễn phí sẽ không còn.',
   'mergeAccount.popup.policyAndroid.desc':
     'Vui lòng xem Điều khoản sử dụng và Chính sách bảo mật để biết thêm thông tin. Đăng kí sẽ tự động gia hạn trừ khi tắt tính năng tự động gia hạn ít nhất 24 giờ trước thời hạn sử dụng. Tài khoản sẽ bị tính phí gia hạn với mức phí của gói học đã chọn trong vòng 24 giờ trước khi kết thúc thời hạn sử dụng. Bạn có thể vào phần Cài đặt trong tài khoản Google Play để quản lý đăng kí của mình và tắt tính năng tự động gia hạn. Tài khoản Google Play của bạn sẽ bị tính phí khi giao dịch mua được xác nhận. Ngay khi giao dịch mua được xác nhận, phần còn lại của bản dùng thử miễn phí sẽ không còn',
-
   'payment.popupc3.title': 'Ba mẹ đang cần hỗ trợ?',
   'payment.popupc3.desc': 'Hãy nói với Monkey nhé!',
   'payment.popupc3.name': 'Họ và tên',
@@ -426,8 +428,8 @@ const vi = {
   'setting.EE.b2c.title': 'Thời gian chuyển giữa 2 thẻ',
   'setting.LRC.changelevel': 'Thay đổi cấp độ',
   'setting.LRC.changelevel.title': 'Hệ thống cấp độ học',
-  'setting.LRC.changelevel.word': 'Từ: {{numberOfWord}}',
-  'setting.LRC.changelevel.lex': 'Lexile: {{lexile}}',
+  'setting.LRC.changelevel.word': 'Từ',
+  'setting.LRC.changelevel.lex': 'Lexile',
   'parents.coursesSetting.level.levelChangeWarning':
     'Ba mẹ chỉ có thể thay đổi cấp độ học 1 lần, ba mẹ có chắc chắn muốn thay đổi không?',
   'parents.coursesSetting.level.noticeNotToChangeLevel':
@@ -441,6 +443,17 @@ const vi = {
   'popup.notice.create.profile.desc':
     'Monkey sẽ đề xuất nội dung để xây dựng lộ trình học phù hợp cho bé',
   'popup.notice.create.profile.button': 'Tạo hồ sơ học ngay',
+
+  'intro.superApp':
+    'Monkey Junior - Siêu ứng dụng học Tiếng Anh cho trẻ em Top 5 thế giới',
+  'intro.monkeyUpgrade':
+    'Ứng dụng của ba mẹ đã được nâng cấp lên phiên bản tốt hơn!',
+  'intro.seeTheChanges': 'Xem các thay đổi',
+  'intro.monkeyKeepsTheData':
+    'Đừng lo lắng về những thay đổi! Monkey vẫn giữ nguyên toàn bộ dữ liệu học tập của bé',
+  'intro.canFindCourseInMJ':
+    'Bé có thể tìm thấy nội dung học của mình tại khóa Monkey Junior',
+  'intro.disCoverNow': 'Khám phá ngay',
 
   'courseProposal.EE.title': 'Early Education',
   'courseProposal.EE.desc1':
@@ -474,6 +487,8 @@ const vi = {
     'Gói mua đã được kích hoạt. Ba mẹ vui lòng tạo tài khoản để sử dụng.',
   'requestCreateAccount.createAccount': 'Tạo tài khoản',
 
+  'Report.EE.title': 'Khóa học',
+  'parents.learningReport.stage': 'Chặng',
   'Report.EE.stage1.title': 'Cơ bản',
   'Report.EE.stage1.content1': 'Học từ vựng qua các phương pháp Giáo dục sớm',
   'Report.EE.stage1.content2': 'Tạo thói quen học từ vựng mỗi ngày cho bé',
