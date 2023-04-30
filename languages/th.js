@@ -52,7 +52,7 @@ const th = {
   'mergeAccount.activecomplete.act': 'เข้าเรียนทันที',
   'parents.tabs.report': 'รายงาน',
   'parents.tabs.course': 'รายการหลักสูตร',
-  'parents.tabs.notification': '\nการแจ้งเตือน',
+  'parents.tabs.notification': 'การแจ้งเตือน',
   'parents.tabs.setting': 'ตั้งค่า',
   'parents.courseSetting.header': 'การตั้งค่าหลักสูตร',
   'parents.setting.header': 'สำหรับผู้ปกครอง',
@@ -277,11 +277,11 @@ const th = {
   'notiMoreThan.descMoreThan5Times':
     'คุณกรอกรหัส OTP ผิดเกิน 5 ครั้ง\nโปรดลองอีกครั้งหลัง 5 นาที',
   'notiMoreThan.descMoreThan3TimesHour':
-    'คุณได้ขอ OTP เกินกำหนด 3 ครั้ง โปรดลองอีกครั้งหลัง 60 วินาที',
+    'คุณได้ขอ OTP เกินกำหนด 3 ครั้ง\nโปรดลองอีกครั้งหลัง 60 วินาที',
   'notiMoreThan.iUnderstand': 'ฉันเข้าใจ',
   'notiInputPswIncorrect.title': 'อุ๊ป!',
   'notiInputPswIncorrect.description':
-    '\nคุณพยายามเกินจำนวนครั้งแล้ว เลือก "ลืมรหัสผ่าน" เพื่อกู้คืน',
+    'คุณพยายามเกินจำนวนครั้งแล้ว\nเลือก "ลืมรหัสผ่าน" เพื่อกู้คืน',
   'notiInputPswIncorrect.retry': 'ลองอีกครั้ง',
   'notiInputPswIncorrect.forgotPass': 'ลืมรหัสผ่าน',
   'signUp.welcome': 'ยินดีต้อนรับสู่มังกี้จูเนียร์',
@@ -424,7 +424,7 @@ const th = {
     'เรื่องราวแบบโต้ตอบมากกว่า 1,000 เรื่องใน 14 ระดับ',
   'courseProposal.LRC.desc23': 'เทคโนโลยีการจดจำเสียง AI ในตัว',
   'intro.scr1.title': 'การเรียนรู้ด้วยประสาทสัมผัสและการโต้ตอบ',
-  'intro.scr1.desc': 'แนวทางการศึกษาปฐมวัยขั้นสูง\n- พัฒนา IQ และ EQ',
+  'intro.scr1.desc': 'แนวทางการศึกษาปฐมวัยขั้นสูง\nพัฒนา IQ และ EQ',
   'intro.scr2.title': 'แผนการเรียนรู้ภาษาที่ครอบคลุม',
   'intro.scr2.desc':
     'เทคโนโลยี AI ช่วยให้เด็กออกเสียงอังกฤษ-อเมริกันได้มาตรฐาน\nหลายระดับเหมาะสำหรับเด็กทุกคน',
@@ -486,4 +486,13 @@ const th = {
     'ผู้อ่านจะได้เรียนรู้คำศัพท์มากมายพร้อมคำศัพท์ขั้นสูงที่ใช้ในบริบทต่างๆ',
   'Report.LRC.stage4.desc4': 'เข้าใจเรื่องราวโดยไม่ต้องตอบภาพ',
   'Report.LRC.desc': 'ปลูกฝังการรักการอ่านให้กับลูกของคุณ',
+
+  'upgradeop1.slide7.desc':
+    'Monkey Junior แอปเรียนภาษาอังกฤษ Top 5 อันดับแรกในโลกสำหรับเด็ก',
+  'upgradeop2.slide1.desc': 'อุปกรณ์ของคุณได้รับการอัปเกรดเป็นเวอร์ชัน 4.0',
+  'upgradeop2.slide1.act': 'ดูการเปลี่ยนแปลง',
+  'intro.monkeyKeepsTheData':
+    'ไม่ต้องกังวลเกี่ยวกับการเปลี่ยนแปลง เราบันทึกการเรียนรู้ของบุตรหลานของคุณ',
+  'upgradeop2.slide6.desc': 'ค้นหาบทเรียนของคุณที่หลักสูตร Monkey ABC',
+  'upgradeop2.slide6.act': 'สำรวจตอนนี้',
 };

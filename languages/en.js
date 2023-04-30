@@ -275,13 +275,13 @@ const en = {
   'updatePassword.fail': 'Password update failed',
   'notiMoreThan.title': 'Notification',
   'notiMoreThan.descMoreThan5Times':
-    "You've exceeded the number of 5 attempts. Please try again after 5 minutes.",
+    "You've exceeded the number of 5 attempts.\nPlease try again after 5 minutes.",
   'notiMoreThan.descMoreThan3TimesHour':
-    'You have requested OTP more than 3 times. Please try again after 60 minutes',
+    'You have requested OTP more than 3 times.\nPlease try again after 60 minutes',
   'notiMoreThan.iUnderstand': 'I understand',
   'notiInputPswIncorrect.title': 'Oops!',
   'notiInputPswIncorrect.description':
-    'You\'ve exceeded the number of attempts. Select "Forgot password" to recover.',
+    'You\'ve exceeded the number of attempts.\nSelect "Forgot password" to recover.',
   'notiInputPswIncorrect.retry': 'Try again',
   'notiInputPswIncorrect.forgotPass': 'Forgot password',
   'signUp.welcome': 'Welcome to Monkey Junior',
@@ -422,10 +422,10 @@ const en = {
   'courseProposal.LRC.desc23': 'Integrated AI voice recognition technology',
   'intro.scr1.title': 'Multisensory and Interactive Learning',
   'intro.scr1.desc':
-    'Early childhood education approaches \n- Improve IQ and EQ ',
+    'Early childhood education approaches \nImprove IQ and EQ ',
   'intro.scr2.title': 'Comprehensive language learning roadmap',
   'intro.scr2.desc':
-    "- Artificial intelligence voice recognition technology improves your child's pronunciation\n- Suitable for kids at all levels",
+    "Artificial intelligence voice recognition technology improves your child's pronunciation\nSuitable for kids at all levels",
   'intro.scr3.title': 'Top 5 English App for kids globally',
   'intro.scr3.desc':
     'Trusted by more than 1 million Americans and 15 million users all over the world',
@@ -490,4 +490,12 @@ const en = {
   'Report.LRC.stage4.desc4':
     'Understand the stories without replying on pictures',
   'Report.LRC.desc': "Nuture your child's love of reading",
+
+  'upgradeop1.slide7.desc': 'Monkey Junior- top 5 English learning Apps',
+  'upgradeop2.slide1.desc': 'You device has been upgraded to version 4.0',
+  'upgradeop2.slide1.act': 'See changes',
+  'intro.monkeyKeepsTheData':
+    "No need to worry about the changes. We save your children's learning record.",
+  'upgradeop2.slide6.desc': 'Find your lessons at Monkey ABC course',
+  'upgradeop2.slide6.act': 'Explore now',
 };

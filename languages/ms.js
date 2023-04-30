@@ -276,13 +276,13 @@ const ms = {
   'updatePassword.fail': 'Kemaskini kata laluan gagal',
   'notiMoreThan.title': 'Pemberitahuan',
   'notiMoreThan.descMoreThan5Times':
-    'Anda telah melebihi jumlah percubaan sebanyak 5 kali. Sila cuba lagi selepas 5 minit.',
+    'Anda telah melebihi jumlah percubaan sebanyak 5 kali.\nSila cuba lagi selepas 5 minit.',
   'notiMoreThan.descMoreThan3TimesHour':
-    'Anda telah meminta OTP lebih daripada 3 kali.Sila cuba lagi selepas 60 minit',
+    'Anda telah meminta OTP lebih daripada 3 kali.\nSila cuba lagi selepas 60 minit',
   'notiMoreThan.iUnderstand': 'Saya faham',
   'notiInputPswIncorrect.title': 'Oops!',
   'notiInputPswIncorrect.description':
-    'Anda telah melebihi jumlah percubaan.Pilih "Lupa kata laluan" untuk set kata laluan anda',
+    'Anda telah melebihi jumlah percubaan.\nPilih "Lupa kata laluan" untuk set kata laluan anda',
   'notiInputPswIncorrect.retry': 'Cuba lagi',
   'notiInputPswIncorrect.forgotPass': 'Lupa kata laluan',
   'signUp.welcome': 'Selamat datang ke Monkey Junior!',
@@ -421,10 +421,10 @@ const ms = {
   'courseProposal.LRC.desc23': 'Teknologi pengecaman suara AI bersepadu',
   'intro.scr1.title': 'Kaedah pembelajaran pelbagai deria dan interaktif',
   'intro.scr1.desc':
-    'Pendekatan pendidikan awal kanak-kanak\n-Mengembangkan IQ dan EQ.',
+    'Pendekatan pendidikan awal kanak-kanak\nMengembangkan IQ dan EQ.',
   'intro.scr2.title': 'Pelan hala tuju pembangunan bahasa yang komprehensif',
   'intro.scr2.desc':
-    '-Teknologi AI membantu kanak-kanak menyeragamkan sebutan Inggeris-Amerika.  \n- Sesuai untuk kanak-kanak pada semua peringkat',
+    'Teknologi AI membantu kanak-kanak menyeragamkan sebutan Inggeris-Amerika.\nSesuai untuk kanak-kanak pada semua peringkat',
   'intro.scr3.title':
     'TOP 5 aplikasi pembelajaran bahasa Inggeris untuk kanak-kanak di dunia',
   'intro.scr3.desc':
@@ -491,4 +491,13 @@ const ms = {
     'Pembaca diperkenalkan dengan kosa kata yang meluas dan terdapat banyak perkataan lanjutan, digunakan dalam pelbagai konteks',
   'Report.LRC.stage4.desc4': 'Memahami cerita tanpa bergantung pada gambar',
   'Report.LRC.desc': 'Memupuk minat membaca anak anda',
+
+  'upgradeop1.slide7.desc':
+    'Monkey Junior adalah antara 5 aplikasi terbaik pembelajaran Bahasa Inggeris untuk kanak-kanak',
+  'upgradeop2.slide1.desc': 'Aplikasi anda telah dikemaskini ke versi 4.0',
+  'upgradeop2.slide1.act': 'Lihat perubahan',
+  'intro.monkeyKeepsTheData':
+    'Tidak perlu risau tentang perubahan. Kami menyimpan rekod pembelajaran anak anda',
+  'upgradeop2.slide6.desc': 'Cari pelajaran anda di dalam kursus Monkey ABC',
+  'upgradeop2.slide6.act': 'Teroka sekarang',
 };

@@ -444,17 +444,6 @@ const vi = {
     'Monkey sẽ đề xuất nội dung để xây dựng lộ trình học phù hợp cho bé',
   'popup.notice.create.profile.button': 'Tạo hồ sơ học ngay',
 
-  'intro.superApp':
-    'Monkey Junior - Siêu ứng dụng học Tiếng Anh cho trẻ em Top 5 thế giới',
-  'intro.monkeyUpgrade':
-    'Ứng dụng của ba mẹ đã được nâng cấp lên phiên bản tốt hơn!',
-  'intro.seeTheChanges': 'Xem các thay đổi',
-  'intro.monkeyKeepsTheData':
-    'Đừng lo lắng về những thay đổi! Monkey vẫn giữ nguyên toàn bộ dữ liệu học tập của bé',
-  'intro.canFindCourseInMJ':
-    'Bé có thể tìm thấy nội dung học của mình tại khóa Monkey Junior',
-  'intro.disCoverNow': 'Khám phá ngay',
-
   'courseProposal.EE.title': 'Early Education',
   'courseProposal.EE.desc1':
     'Là khóa học dạy ngôn ngữ cho các bé với định hướng từ vựng, áp dụng các biện pháp Giáo dục sớm, kích thích đồng đều cả 2 bán cầu não.',
@@ -542,4 +531,15 @@ const vi = {
   'Report.LRC.stage4.desc4':
     'Có thể chủ động hiểu được truyện mà không cần phụ thuộc vào hình ảnh',
   'Report.LRC.desc': 'Tạo dựng thói quen đọc sách mỗi ngày',
+
+  'upgradeop1.slide7.desc':
+    'Monkey Junior - Siêu ứng dụng học Tiếng Anh cho trẻ em Top 5 thế giới',
+  'upgradeop2.slide1.desc':
+    'Ứng dụng của ba mẹ đã được nâng cấp lên phiên bản tốt hơn!',
+  'upgradeop2.slide1.act': 'Xem các thay đổi',
+  'intro.monkeyKeepsTheData':
+    'Đừng lo lắng về những thay đổi! Monkey vẫn giữ nguyên toàn bộ dữ liệu học tập của bé',
+  'upgradeop2.slide6.desc':
+    'Bé có thể tìm thấy nội dung học của mình tại khóa Monkey ABC',
+  'upgradeop2.slide6.act': 'Khám phá ngay',
 };
