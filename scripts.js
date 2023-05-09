@@ -1,11 +1,11 @@
-// https://docs.google.com/spreadsheets/d/1hQQVtx3uKtBCYzlXAp1VDTaHFrhk4Bm_8Q1cvPz2-gc/edit?usp=sharing
+// https://docs.google.com/spreadsheets/d/191MrNIF1NfMzL5XOE0Ky9HxeNxox1v0iqTLyrVSd8H4/edit#gid=0
 const sheet = $(".sheet")[0];
 const output = $(".output")[0];
 const url = "https://docs.google.com/spreadsheets/d/";
-const ssid = "1bmRJ0rJwzolxfBmPWtmELvTV_WxTdMbTJfpifvo2Sro";
+const SSID = "191MrNIF1NfMzL5XOE0Ky9HxeNxox1v0iqTLyrVSd8H4";
 const query = `/gviz/tq?`;
 
-const endpoint = `${url}${ssid}${query}`;
+const endpoint = `${url}${SSID}${query}`;
 sheet.textContent = endpoint;
 
 let rowsSheet = [];
@@ -19,7 +19,7 @@ fetch(endpoint)
     console.log({ rowsSheet });
     rowsSheet.forEach((row) => {
       const rowElm = document.createElement("div");
-      const columnsInRow = row.c.slice(0, 9);
+      const columnsInRow = row.c.slice(0, 10);
       columnsInRow.forEach((cell) => {
         const box = document.createElement("div");
         box.textContent = cell?.v;
@@ -238,4 +238,28 @@ $("#log_keys_value-non-translate-ms-code").on("click", () => {
     }
   });
   console.log({ keysWithValueNonTranslateMS_CODE });
+});
+
+$("#log_keys_value-TH-break-word").on("click", () => {
+  const keyValueBreakWordsTH = {};
+  KEYS_VI.forEach((key) => {
+    const rowDataForKey = rowsSheet.find((row) => {
+      const columnsInRow = row.c;
+      const keyLang = columnsInRow[3]?.v;
+      return key === keyLang;
+    });
+
+    const textTranslateTH = rowDataForKey?.c[9]?.v;
+    if (textTranslateTH && textTranslateTH.includes("|")) {
+      keyValueBreakWordsTH[key] = textTranslateTH;
+    }
+  });
+
+  const output = { ...objectDataLangTH };
+  Object.keys(objectDataLangTH).forEach((key) => {
+    if (keyValueBreakWordsTH[key]) {
+      output[key] = keyValueBreakWordsTH[key];
+    }
+  });
+  console.log({ output });
 });
