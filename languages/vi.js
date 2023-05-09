@@ -119,6 +119,8 @@ const vi = {
   'parents.settingStudySchedule.sat': 'T7',
   'parents.settingStudySchedule.sun': 'CN',
   'parents.settingStudySchedule.classScheduleReminder': 'Lưu lịch học',
+  'parents.studySchedule.noti.message':
+    'Đã đến giờ học rồi, ba mẹ hãy mở ứng dụng ngay để cùng bé học tập nhé',
 
   'parents.aboutMonkey': 'Về Monkey',
   'parents.termsOfUse': 'Điều khoản sử dụng',
@@ -254,7 +256,7 @@ const vi = {
   'validate.usernameDoesNotContainSpace': 'Tên đăng nhập không chứa dấu cách',
   'validate.nameAlreadyExists': 'Tên hồ sơ đã tồn tại',
 
-  'notiAccNotExist.cancel': 'Hủy',
+  'notiAccNotExist.cancel': 'Tôi đã hiểu',
   'notiAccNotExist.resgister': 'Đăng ký',
   'notiAccAlreadyExist.title': 'Thông báo',
   'notiAccAlreadyExist.cancel': 'Tôi đã hiểu',
@@ -271,8 +273,7 @@ const vi = {
   'forgotPassword.sendOtp': 'Gửi OTP',
   'forgotPassword.phone': 'Số điện thoại',
   'forgotPassword.confirmOtp': 'Xác nhận OTP',
-  'forgotPassword.monkeySent':
-    'Monkey đã gửi mã OTP đến {{method}} \n{{value}}',
+  'forgotPassword.monkeySent': 'Monkey đã gửi mã OTP đến {{method}} {{value}}',
   'forgotPassword.phoneText': 'số điện thoại',
   'forgotPassword.emailText': 'email',
   'forgotPassword.confirm': 'Xác nhận',
@@ -311,7 +312,7 @@ const vi = {
   'signUp.login': 'Đăng nhập',
   'signUp.phone': 'Số điện thoại',
   'signUp.password': 'Mật khẩu',
-  'signUp.rePassword': 'Nhập lại mật khẩu',
+  'signUp.rePassword': 'Xác nhận mật khẩu',
   'signUp.signUp': 'Đăng ký',
   'signUp.continue': 'Tiếp tục',
   'signUp.error': 'Rất tiếc, đã có lỗi xảy ra. Ba mẹ vui lòng thử lại.',
@@ -426,6 +427,11 @@ const vi = {
   'setting.EE.guide': 'Huớng dẫn chọn đáp án',
   'setting.EE.b2c': 'Thời gian chuyển giữa 2 thẻ học',
   'setting.EE.b2c.title': 'Thời gian chuyển giữa 2 thẻ',
+  'setting.EE.b2c.op1': '0.1 giây',
+  'setting.EE.b2c.op2': '0.3 giây',
+  'setting.EE.b2c.op3': '0.5 giây',
+  'setting.EE.b2c.op4': '0.7 giây (mặc định)',
+  'setting.EE.b2c.op5': '1 giây',
   'setting.LRC.changelevel': 'Thay đổi cấp độ',
   'setting.LRC.changelevel.title': 'Hệ thống cấp độ học',
   'setting.LRC.changelevel.word': 'Từ',
@@ -444,7 +450,7 @@ const vi = {
     'Monkey sẽ đề xuất nội dung để xây dựng lộ trình học phù hợp cho bé',
   'popup.notice.create.profile.button': 'Tạo hồ sơ học ngay',
 
-  'courseProposal.EE.title': 'Early Education',
+  'courseProposal.EE.title': 'Monkey ABC',
   'courseProposal.EE.desc1':
     'Là khóa học dạy ngôn ngữ cho các bé với định hướng từ vựng, áp dụng các biện pháp Giáo dục sớm, kích thích đồng đều cả 2 bán cầu não.',
   'courseProposal.EE.desc21': 'Dành cho trẻ từ 0-6 tuổi',
@@ -452,7 +458,7 @@ const vi = {
     '800+ từ vựng, 2500+ câu và 140+ chủ điểm ngữ pháp',
   'courseProposal.EE.desc23': '50+ trò chơi tương tác thứ vị',
 
-  'courseProposal.LRC.title': 'Leveled reading',
+  'courseProposal.LRC.title': 'Monkey Reader',
   'courseProposal.LRC.desc1':
     'Là khóa học giúp bé luyện tập, nâng cao khả năng tiếng Anh bằng phương pháp Đọc - Hiểu theo từng cấp độ tương đương với trình độ từ pre A1 đến A2',
   'courseProposal.LRC.desc21': 'Dành cho trẻ từ 2-10 tuổi',
@@ -461,7 +467,7 @@ const vi = {
 
   'intro.scr1.title': 'Phương pháp học đa giác quan, đa tương tác',
   'intro.scr1.desc':
-    'Áp dụng phương pháp giáo dục sớm tiên tiến\nTrẻ phát triển cân bằng IQ và EQ',
+    'Áp dụng phương pháp giáo dục sớm tiên tiến - Trẻ phát triển cân bằng IQ và EQ',
   'intro.scr2.title': 'Lộ trình phát triển ngôn ngữ toàn diện',
   'intro.scr2.desc':
     'Công nghệ AI giúp trẻ phát âm chuẩn Anh - Mỹ\nNhiều cấp độ phù hợp với mọi trẻ em',

@@ -65,7 +65,7 @@ const en = {
   'parents.setting.support': 'Support',
   'parents.setting.logout': 'Sign out',
   'parents.setting.deleteAccount': 'Delete account',
-  'parents.parentInformation.header': 'Thông tin phụ huynh', // update
+  'parents.parentInformation.header': 'Parent information',
   'parents.parentInformation.fullName': 'Full name',
   'parents.parentInformation.fullNamePlaceholder': 'Full name',
   'parents.parentInformation.phone': 'Phone number',
@@ -115,6 +115,8 @@ const en = {
   'parents.settingStudySchedule.sat': 'S',
   'parents.settingStudySchedule.sun': 'S',
   'parents.settingStudySchedule.classScheduleReminder': 'Set reminder',
+  'parents.studySchedule.noti.message': 'Nội dung thông báo EN', // TODO update
+
   'parents.aboutMonkey': 'About Monkey',
   'parents.termsOfUse': 'Terms and conditions',
   'parents.privacyPolicy': 'Privacy policy',
@@ -254,7 +256,7 @@ const en = {
   'forgotPassword.phone': 'Phone number',
   'forgotPassword.confirmOtp': 'Confirm OTP',
   'forgotPassword.monkeySent':
-    'Monkey has sent an OTP to your {{method}} \\n{{value}}',
+    'Monkey has sent an OTP to your {{method}} {{value}}',
   'forgotPassword.phoneText': 'Phone number',
   'forgotPassword.emailText': 'Email',
   'forgotPassword.confirm': 'Confirm',
@@ -311,7 +313,7 @@ const en = {
   'popupVerify.six': 'six',
   'popupVerify.seven': 'seven',
   'popupVerify.eight': 'eight',
-  'popupVerify.nine': 'night',
+  'popupVerify.nine': 'nine',
   'payment.title': 'Course',
   'payment.save': 'SAVE {{percent}}%',
   'payment.desc': 'Cancel any time',
@@ -348,7 +350,7 @@ const en = {
   'payment.popupc3.phone': 'Phone number/ Email',
   'payment.popupc3.act': 'Request',
   'popupC3.requireName': 'Please enter your phone number/username',
-  'popupC3.requireContact': 'Phone number/ Email',
+  'popupC3.requireContact': 'Phone number',
   'payment.popupc3.success.title': 'Request successfully',
   'payment.popupc3.success.desc': 'Monkey will contact you within 24 hours',
   'payment.popupc3.success.act': 'More information',
@@ -366,8 +368,7 @@ const en = {
   'linkAccountChooseSignInOrSignUp.description':
     'To use the purchased course, please',
   'linkAccountChooseSignInOrSignUp.login': 'Log in',
-  'linkAccountChooseSignInOrSignUp.createNewAccount':
-    'Sign up/Log in with another account',
+  'linkAccountChooseSignInOrSignUp.createNewAccount': 'Sign up',
   'errorNetwork.title': 'Could not connect to server',
   'errorNetwork.desc': 'Please check your network connection. Thank you!',
   'errorNetwork.tryAgain': 'Try again',
@@ -391,6 +392,11 @@ const en = {
   'setting.EE.guide': 'Guide to choose the correct answer',
   'setting.EE.b2c': 'The interval between 2 cards',
   'setting.EE.b2c.title': 'The interval between 2 cards',
+  'setting.EE.b2c.op1': '0.1s',
+  'setting.EE.b2c.op2': '0.3s',
+  'setting.EE.b2c.op3': '0.5s',
+  'setting.EE.b2c.op4': '0.7s (default)',
+  'setting.EE.b2c.op5': '1s',
   'setting.LRC.changelevel': 'Change level',
   'setting.LRC.changelevel.title': 'Levels',
   'setting.LRC.changelevel.word': 'Words',
@@ -407,14 +413,14 @@ const en = {
   'popup.notice.create.profile.desc':
     'Monkey will recommend content to build a suitable learning pathway for your kid.',
   'popup.notice.create.profile.button': 'Create your learning profile now',
-  'courseProposal.EE.title': 'Early Education',
+  'courseProposal.EE.title': 'Monkey ABC',
   'courseProposal.EE.desc1':
     'A language course for kids applied Early Childhood Education Approaches to teach Vocabulary and help to develop both sides of their brain',
   'courseProposal.EE.desc21': 'Designed for kids 0-6 years old',
   'courseProposal.EE.desc22':
     '800+ words, 2500+ sentences and 140+ grammar structures',
   'courseProposal.EE.desc23': '50+ interactive games',
-  'courseProposal.LRC.title': 'Leveled reading',
+  'courseProposal.LRC.title': 'Monkey Reader',
   'courseProposal.LRC.desc1':
     'An English course to help children create a good reading habit and improve their reading comprehension',
   'courseProposal.LRC.desc21': 'Designed for kids 2-10 years old',
@@ -422,7 +428,7 @@ const en = {
   'courseProposal.LRC.desc23': 'Integrated AI voice recognition technology',
   'intro.scr1.title': 'Multisensory and Interactive Learning',
   'intro.scr1.desc':
-    'Early childhood education approaches \nImprove IQ and EQ ',
+    'Early childhood education approaches - Improve IQ and EQ ',
   'intro.scr2.title': 'Comprehensive language learning roadmap',
   'intro.scr2.desc':
     "Artificial intelligence voice recognition technology improves your child's pronunciation\nSuitable for kids at all levels",

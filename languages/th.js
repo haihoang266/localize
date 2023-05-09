@@ -115,6 +115,8 @@ const th = {
   'parents.settingStudySchedule.sat': 'S',
   'parents.settingStudySchedule.sun': 'S',
   'parents.settingStudySchedule.classScheduleReminder': 'ตั้งเตือน',
+  'parents.studySchedule.noti.message': 'Nội dung thông báo TH', // TODO update
+
   'parents.aboutMonkey': '\nเกี่ยวกับ Monkey',
   'parents.termsOfUse': 'ข้อกำหนดและเงื่อนไข',
   'parents.privacyPolicy': 'นโยบายความเป็นส่วนตัว',
@@ -135,8 +137,7 @@ const th = {
   'parents.learningReport.speaking': 'การพูด',
   'parents.learningReport.reading': 'การอ่าน',
   'parents.learningReport.writing': 'การเขียน',
-  'parents.learningReport.courseProgress':
-    'parents.learningReport.courseProgress', // update
+  'parents.learningReport.courseProgress': 'ความก้าวหน้าของหลักสูตร',
   'parents.changeAvatarProfile.title': 'เปลี่ยนอวาตาร์',
   'parents.changeAvatarProfile.setAvatar': 'ไม่พบข้อมูล',
   'parents.childProfile.target.op1': 'คำศัพท์',
@@ -254,7 +255,7 @@ const th = {
   'forgotPassword.phone': 'หมายเลขโทรศัพท์',
   'forgotPassword.confirmOtp': 'ยืนยัน OTP',
   'forgotPassword.monkeySent':
-    'Monkey ได้ส่ง OTP ไปยังหมายเลขโทรศัพท์ของคุณ \\n{{value}}',
+    'Monkey ได้ส่ง OTP ไปยังหมายเลขโทรศัพท์ของคุณ {{value}}',
   'forgotPassword.phoneText': 'หมายเลขโทรศัพท์',
   'forgotPassword.emailText': 'อีเมล',
   'forgotPassword.confirm': 'ยืนยัน',
@@ -349,7 +350,7 @@ const th = {
   'payment.popupc3.phone': 'เบอร์โทร/อีเมล์',
   'payment.popupc3.act': 'คำขอ',
   'popupC3.requireName': 'ชื่อและนามสกุล',
-  'popupC3.requireContact': 'กรุณากรอกหมายเลขโทรศัพท์/อีเมล',
+  'popupC3.requireContact': 'กรุณากรอกหมายเลขโทรศัพท์',
   'payment.popupc3.success.title': 'คำขอสำเร็จ',
   'payment.popupc3.success.desc': 'Monkey จะติดต่อกลับภายใน 24 ชม',
   'payment.popupc3.success.act': 'รายละเอียดเพิ่มเติม',
@@ -363,7 +364,7 @@ const th = {
   'linkAccount.phone': 'หมายเลขโทรศัพท์',
   'linkAccount.academicRecords': 'ประวัติการศึกษา',
   'linkAccount.linkWithThisAccount': 'เห็นด้วย',
-  'linkAccount.loginWithOtherAccount': 'linkAccount.loginWithOtherAccount', // update
+  'linkAccount.loginWithOtherAccount': 'ฉันมีบัญชีแล้ว',
   'linkAccountChooseSignInOrSignUp.description':
     'หากต้องการใช้แพ็คเกจการซื้อโปรดผู้ปกครอง...',
   'linkAccountChooseSignInOrSignUp.login': 'เข้าสู่ระบบ',
@@ -372,7 +373,7 @@ const th = {
   'errorNetwork.title': 'เกิดปัญหาไม่สามารถเชื่อมต่อกับเซิร์ฟเวอร์ได้',
   'errorNetwork.desc':
     'กรุณาตรวจสอบการเชื่อมต่ออินเตอร์เน็ตของคุณอีกครั้ง ขอบคุณ',
-  'errorNetwork.tryAgain': 'errorNetwork.tryAgain',
+  'errorNetwork.tryAgain': 'ลองอีกครั้ง',
   'popupAccoutHasActivated.desc':
     'แพ็กเกจที่ซื้อเชื่อมโยงกับบัญชี: {{displayName}} ผู้ปกครองกรุณาเข้าสู่ระบบเพื่อใช้งานต่อ',
   'popupAccoutHasActivated.agree': 'ยืนยัน',
@@ -394,6 +395,11 @@ const th = {
   'setting.EE.guide': 'คู่มือการเลือกคำตอบที่ถูกต้อง',
   'setting.EE.b2c': 'เวลาเปลี่ยนระหว่างแฟลชการ์ด',
   'setting.EE.b2c.title': 'เวลาเปลี่ยนระหว่างแฟลชการ์ด',
+  'setting.EE.b2c.op1': '0.1 วินาที',
+  'setting.EE.b2c.op2': '0.3 วินาที',
+  'setting.EE.b2c.op3': '0.5 วินาที',
+  'setting.EE.b2c.op4': '0.7 วินาที (ค่าเริ่มต้น)',
+  'setting.EE.b2c.op5': '1 วินาที',
   'setting.LRC.changelevel': 'เปลี่ยนระดับ',
   'setting.LRC.changelevel.title': 'ระดับ',
   'setting.LRC.changelevel.word': 'คำ',
@@ -409,14 +415,14 @@ const th = {
   'popup.notice.create.profile.desc':
     'Monkey จะแนะนำเนื้อหาเพื่อสร้างเส้นทางการเรียนรู้ที่เหมาะสมสำหรับเด็ก',
   'popup.notice.create.profile.button': 'สร้างโปรไฟล์ให้เด็กตอนนี้',
-  'courseProposal.EE.title': 'Early Education',
+  'courseProposal.EE.title': 'Monkey ABC',
   'courseProposal.EE.desc1':
     'หลักสูตรภาษาสำหรับเด็กประยุกต์แนวทางการศึกษาปฐมวัยเพื่อสอนคำศัพท์และช่วยพัฒนาสมองทั้งสองซีก',
   'courseProposal.EE.desc21': 'ออกแบบมาสำหรับเด็กอายุ 0-6 ปี',
   'courseProposal.EE.desc22':
     '800+ คำ 2,500+ ประโยค และ 140+ โครงสร้างไวยากรณ์',
   'courseProposal.EE.desc23': 'เกมแบบโต้ตอบมากกว่า 50 เกม',
-  'courseProposal.LRC.title': 'Leveled reading',
+  'courseProposal.LRC.title': 'Monkey Reader',
   'courseProposal.LRC.desc1':
     'หลักสูตรภาษาอังกฤษเพื่อช่วยให้เด็กสร้างนิสัยรักการอ่านและพัฒนาความเข้าใจในการอ่าน',
   'courseProposal.LRC.desc21': 'ออกแบบมาสำหรับเด็กอายุ 2-10 ปี',
@@ -424,7 +430,7 @@ const th = {
     'เรื่องราวแบบโต้ตอบมากกว่า 1,000 เรื่องใน 14 ระดับ',
   'courseProposal.LRC.desc23': 'เทคโนโลยีการจดจำเสียง AI ในตัว',
   'intro.scr1.title': 'การเรียนรู้ด้วยประสาทสัมผัสและการโต้ตอบ',
-  'intro.scr1.desc': 'แนวทางการศึกษาปฐมวัยขั้นสูง\nพัฒนา IQ และ EQ',
+  'intro.scr1.desc': 'แนวทางการศึกษาปฐมวัยขั้นสูง - พัฒนา IQ และ EQ',
   'intro.scr2.title': 'แผนการเรียนรู้ภาษาที่ครอบคลุม',
   'intro.scr2.desc':
     'เทคโนโลยี AI ช่วยให้เด็กออกเสียงอังกฤษ-อเมริกันได้มาตรฐาน\nหลายระดับเหมาะสำหรับเด็กทุกคน',

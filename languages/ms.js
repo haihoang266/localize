@@ -40,7 +40,7 @@ const ms = {
   'login.quickLogin': 'Log masuk cepat',
   'mergeAccount.validAccount.title': 'Pengaktifan berjaya',
   'mergeAccount.validAccount.description':
-    'Tahniah Ibu bapa telah berjaya mengaktifkan kursus [Nama Kursus] [Tempoh]',
+    'Tahniah Ibu bapa telah berjaya mengaktifkan kursus',
   'mergeAccount.validAccount.continue': 'Teruskan',
   'mergeAccount.popup.packageerror.desc':
     'Maaf, maklumat pakej telah ralat. Sila hubungi Monkey Care di 088335350 untuk sokongan.',
@@ -115,6 +115,8 @@ const ms = {
   'parents.settingStudySchedule.sat': 'S',
   'parents.settingStudySchedule.sun': 'A',
   'parents.settingStudySchedule.classScheduleReminder': 'Set jadual',
+  'parents.studySchedule.noti.message': 'Nội dung thông báo MS', // TODO update
+
   'parents.aboutMonkey': 'Tentang Monkey',
   'parents.termsOfUse': 'Terma dan syarat',
   'parents.privacyPolicy': 'Dasar privasi',
@@ -255,7 +257,7 @@ const ms = {
   'forgotPassword.phone': 'Nombor telefon',
   'forgotPassword.confirmOtp': 'Sahkan OTP',
   'forgotPassword.monkeySent':
-    'Pihak Monkey telah menghantar OTP ke nombor telefon anda \\n{{value}}',
+    'Pihak Monkey telah menghantar OTP ke nombor telefon anda {{value}}',
   'forgotPassword.phoneText': 'Nombor telefon',
   'forgotPassword.emailText': 'Emel',
   'forgotPassword.confirm': 'Sahkan',
@@ -349,7 +351,7 @@ const ms = {
   'payment.popupc3.phone': 'Nombor telefon/e-mel',
   'payment.popupc3.act': 'Permintaan',
   'popupC3.requireName': 'Nama penuh',
-  'popupC3.requireContact': 'Nombor telefon/Emel',
+  'popupC3.requireContact': 'Nombor telefon',
   'payment.popupc3.success.title': 'Permintaan berjaya',
   'payment.popupc3.success.desc': 'Monkey akan menghubungi anda semasa 24 jam',
   'payment.popupc3.success.act': 'Maklumat lanjut',
@@ -392,6 +394,11 @@ const ms = {
   'setting.EE.guide': 'Panduan memilih jawapan',
   'setting.EE.b2c': 'Selang antara 2 kad',
   'setting.EE.b2c.title': 'Selang antara 2 kad',
+  'setting.EE.b2c.op1': '0.1 saat',
+  'setting.EE.b2c.op2': '0.3 saat',
+  'setting.EE.b2c.op3': '0.5 saat',
+  'setting.EE.b2c.op4': '0.7 saat (default)',
+  'setting.EE.b2c.op5': '1 saat',
   'setting.LRC.changelevel': 'Berubah tahap',
   'setting.LRC.changelevel.title': 'Tahap pembelajaran',
   'setting.LRC.changelevel.word': 'Kata',
@@ -407,13 +414,13 @@ const ms = {
   'popup.notice.create.profile.desc':
     'Monkey akan mengesyorkan kandungan untuk membina laluan pembelajaran yang sesuai untuk kanak kanak',
   'popup.notice.create.profile.button': 'Buat profil sekarang',
-  'courseProposal.EE.title': 'Pendidikan Awal',
+  'courseProposal.EE.title': 'Monkey ABC',
   'courseProposal.EE.desc1':
     'Kursus bahasa menggunakan Pendekatan Pendidikan Awal Kanak-kanak untuk mengajar Kosa Kata dan membantu untuk perkembangan otak kanak-kanak.',
   'courseProposal.EE.desc21': 'Direka untuk kanak-kanak berumur 0-6 tahun',
   'courseProposal.EE.desc22': '800+ perkataan, 2500+ ayat dan 140+ struktur',
   'courseProposal.EE.desc23': '50+ permainan interaktif',
-  'courseProposal.LRC.title': 'Bacaan bertingkat',
+  'courseProposal.LRC.title': 'Monkey Reader',
   'courseProposal.LRC.desc1':
     'Kursus Bahasa Inggeris untuk membantu kanak-kanak mewujudkan tabiat membaca yang baik dan meningkatkan pemahaman membaca mereka',
   'courseProposal.LRC.desc21': 'Direka untuk kanak-kanak berumur 2-10 tahun',
@@ -421,7 +428,7 @@ const ms = {
   'courseProposal.LRC.desc23': 'Teknologi pengecaman suara AI bersepadu',
   'intro.scr1.title': 'Kaedah pembelajaran pelbagai deria dan interaktif',
   'intro.scr1.desc':
-    'Pendekatan pendidikan awal kanak-kanak\nMengembangkan IQ dan EQ.',
+    'Pendekatan pendidikan awal kanak-kanak-Mengembangkan IQ dan EQ.',
   'intro.scr2.title': 'Pelan hala tuju pembangunan bahasa yang komprehensif',
   'intro.scr2.desc':
     'Teknologi AI membantu kanak-kanak menyeragamkan sebutan Inggeris-Amerika.\nSesuai untuk kanak-kanak pada semua peringkat',
